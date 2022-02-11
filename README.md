@@ -1,9 +1,9 @@
 # Самоконтроль выполненения задания
 
 1. Где расположен файл с `some_fact` из второго пункта задания?
-'''
+```
 В group_vars/all/examp.yml
-'''
+```
 2. Какая команда нужна для запуска вашего `playbook` на окружении `test.yml`?
 '''
 ansible-playbook -i inventory/test.yml site.yml
